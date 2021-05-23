@@ -1,0 +1,34 @@
+#firewall-cmd add source by using external ip of the servers (recommended while using persistent ip address)
+firewall-cmd --permanent --add-source=34.101.177.101
+firewall-cmd --permanent --add-source=34.101.243.77
+firewall-cmd --permanent --add-source=34.101.214.123
+firewall-cmd --permanent --add-source=34.101.223.99
+
+#firewall-cmd add source by using external ip of the servers (recommended while using persistent ip address)
+firewall-cmd --permanent --add-source=10.184.0.6
+firewall-cmd --permanent --add-source=10.184.0.7
+firewall-cmd --permanent --add-source=10.184.0.8
+firewall-cmd --permanent --add-source=10.184.0.9
+
+#firewall-cmd add source by its port
+#Default
+firewall-cmd --add-port 6443/tcp --permanent
+firewall-cmd --add-port 8080/tcp --permanent
+firewall-cmd --add-port 80/tcp --permanent
+firewall-cmd --add-port 443/tcp --permanent
+firewall-cmd --add-port 98/tcp --permanent
+
+#BigchainDB Servers
+firewall-cmd --add-port 9983/tcp --permanent
+firewall-cmd --add-port 9984/tcp --permanent
+firewall-cmd --add-port 9985/tcp --permanent
+firewall-cmd --add-port 9986/tcp --permanent
+
+#Tendermint
+firewall-cmd --add-port 26656/tcp --permanent
+firewall-cmd --add-port 26657/tcp --permanent
+firewall-cmd --add-port 26658/tcp --permanent
+
+#MongoDB
+firewall-cmd --add-port 27017/tcp --permanent
+firewall-cmd --add-port 27018/tcp --permanent
