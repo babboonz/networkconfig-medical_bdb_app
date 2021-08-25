@@ -10,4 +10,4 @@ sudo systemctl restart mongodb
 
 then, check the status after restart
 
-sudo systemctl service mongodb
+sudo systemctl status mongodb
