@@ -1,34 +1,40 @@
-#node_id instance 7 = ec418539ec72abf2b263450dd01fa8c40b808d9b
-#node_id instance 8 = fe971e26b1aa223730e0639e02f70eb5ca6ef21d
-#node_id instance 9 = 706a0c300258b476a3d7365193c9a2e7b7e93754
-#node_id instance 10 = 834514d5c3615de3e4a2475038f5baea531f0215
+#node_id instance 1 = e0e7faf82f8710432fb7718f67baf03d95ce1e1d
+#node_id instance 2 = 2f2ccb280eedd7720ec68120cfd66f70f2c03750
+#node_id instance 3 = 34fd9b341a75e72ea99f42a2ae3e498e1d18c8de
+#node_id instance 4 = b323ca6af3bbb656710f9592d1106d569b016ffb
 
-#IP_address_public instance 7 = 34.101.177.101
-#IP_address_public instance 8 = 34.101.243.77
-#IP_address_public instance 9 = 34.101.214.123
-#IP_address_public instance 10 = 34.101.223.99
+#IP_address_public instance 1 = 34.101.134.220
+#IP_address_public instance 2 = 34.101.222.72
+#IP_address_public instance 3 = 34.101.77.42
+#IP_address_public instance 4 = 34.101.96.18
 
-#IP_address_private instance 7 = 10.184.0.6
-#IP_address_private instance 8 = 10.184.0.7
-#IP_address_private instance 9 = 10.184.0.8
-#IP_address_private instance 10 = 10.184.0.9
+#IP_address_private instance 1 = 10.184.0.2
+#IP_address_private instance 2 = 10.184.0.3
+#IP_address_private instance 3 = 10.184.0.4
+#IP_address_private instance 4 = 10.184.0.5
 
-#persistent peers on instance 7
-persistent_peers = "fe971e26b1aa223730e0639e02f70eb5ca6ef21d@34.101.88.255:26656,\
-706a0c300258b476a3d7365193c9a2e7b7e93754@34.101.165.148:26656,\
-834514d5c3615de3e4a2475038f5baea531f0215@34.101.215.223:26656,"
+#node_id@public_ip
+instance_1 = "e0e7faf82f8710432fb7718f67baf03d95ce1e1d@34.101.134.220:26656"
+instance_2 = "2f2ccb280eedd7720ec68120cfd66f70f2c03750@34.101.222.72:26656"
+instance_3 = "34fd9b341a75e72ea99f42a2ae3e498e1d18c8de@34.101.77.42:26656"
+instance_4 = "b323ca6af3bbb656710f9592d1106d569b016ffb@34.101.96.18:26656"
 
-#persistent peers on instance 8
-persistent_peers = "ec418539ec72abf2b263450dd01fa8c40b808d9b@34.101.231.183:26656,\
-706a0c300258b476a3d7365193c9a2e7b7e93754@34.101.165.148:26656,\
-834514d5c3615de3e4a2475038f5baea531f0215@34.101.215.223:26656,"
+#persistent peers on instance 1 = 2, 3, 4
+persistent_peers = "2f2ccb280eedd7720ec68120cfd66f70f2c03750@34.101.222.72:26656,\
+34fd9b341a75e72ea99f42a2ae3e498e1d18c8de@34.101.77.42:26656,\
+b323ca6af3bbb656710f9592d1106d569b016ffb@34.101.96.18:26656,"
 
-#persistent peers on instance 9
-persistent_peers = "ec418539ec72abf2b263450dd01fa8c40b808d9b@34.101.231.183:26656,\
-fe971e26b1aa223730e0639e02f70eb5ca6ef21d@34.101.88.255:26656,\
-834514d5c3615de3e4a2475038f5baea531f0215@34.101.215.223:26656,"
+#persistent peers on instance 2 = 1, 3, 4
+persistent_peers = "e0e7faf82f8710432fb7718f67baf03d95ce1e1d@34.101.134.220:26656,\
+34fd9b341a75e72ea99f42a2ae3e498e1d18c8de@34.101.77.42:26656,\
+b323ca6af3bbb656710f9592d1106d569b016ffb@34.101.96.18:26656,"
 
-#persistent peers on instance 10
-persistent_peers = "ec418539ec72abf2b263450dd01fa8c40b808d9b@34.101.231.183:26656,\
-fe971e26b1aa223730e0639e02f70eb5ca6ef21d@34.101.88.255:26656,\
-706a0c300258b476a3d7365193c9a2e7b7e93754@34.101.165.148:26656,"
+#persistent peers on instance 3 = 1, 2, 4
+persistent_peers = "e0e7faf82f8710432fb7718f67baf03d95ce1e1d@34.101.134.220:26656,\
+2f2ccb280eedd7720ec68120cfd66f70f2c03750@34.101.222.72:26656,\
+b323ca6af3bbb656710f9592d1106d569b016ffb@34.101.96.18:26656,"
+
+#persistent peers on instance 4 = 1, 2, 3
+persistent_peers = "e0e7faf82f8710432fb7718f67baf03d95ce1e1d@34.101.134.220:26656,\
+2f2ccb280eedd7720ec68120cfd66f70f2c03750@34.101.222.72:26656,\
+34fd9b341a75e72ea99f42a2ae3e498e1d18c8de@34.101.77.42:26656,"
