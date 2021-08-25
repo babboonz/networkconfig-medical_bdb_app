@@ -1,0 +1,23 @@
+Reference http://docs.bigchaindb.com/projects/server/en/latest/simple-deployment-template/deploy-a-machine.html
+
+installation and setups:
+
+sudo apt update
+sudo apt full-upgrade
+sudo apt install nginx
+sudo apt install -y python3-pip libssl-dev
+sudo pip3 install -U pip
+sudo pip3 install bigchaindb
+bigchaindb configure ==> configure api server bind to 0.0.0.0:9984
+sudo apt install mongodb
+sudo apt install -y unzip
+wget https://github.com/tendermint/tendermint/releases/download/v0.31.5/tendermint_v0.31.5_linux_amd64.zip
+unzip tendermint_v0.31.5_linux_amd64.zip
+rm tendermint_v0.31.5_linux_amd64.zip
+sudo mv tendermint /usr/local/bin
+sudo apt install net-tools
+pip3 install gevent==20.9.0
+sudo apt install firewalld
+
+check the mongodb
+sudo systemctl status mongodb
