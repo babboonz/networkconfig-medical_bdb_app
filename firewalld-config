@@ -1,14 +1,14 @@
 #firewall-cmd add source by using external ip of the servers (recommended while using persistent ip address)
-firewall-cmd --permanent --add-source=34.101.177.101
-firewall-cmd --permanent --add-source=34.101.243.77
-firewall-cmd --permanent --add-source=34.101.214.123
-firewall-cmd --permanent --add-source=34.101.223.99
+firewall-cmd --permanent --add-source=34.101.134.220
+firewall-cmd --permanent --add-source=34.101.222.72
+firewall-cmd --permanent --add-source=34.101.77.42
+firewall-cmd --permanent --add-source=34.101.96.18
 
 #firewall-cmd add source by using external ip of the servers (recommended while using persistent ip address)
-firewall-cmd --permanent --add-source=10.184.0.6
-firewall-cmd --permanent --add-source=10.184.0.7
-firewall-cmd --permanent --add-source=10.184.0.8
-firewall-cmd --permanent --add-source=10.184.0.9
+firewall-cmd --permanent --add-source=10.184.0.2
+firewall-cmd --permanent --add-source=10.184.0.3
+firewall-cmd --permanent --add-source=10.184.0.4
+firewall-cmd --permanent --add-source=10.184.0.5
 
 #firewall-cmd add source by its port
 #Default
@@ -32,3 +32,6 @@ firewall-cmd --add-port 26658/tcp --permanent
 #MongoDB
 firewall-cmd --add-port 27017/tcp --permanent
 firewall-cmd --add-port 27018/tcp --permanent
+
+#Confirm changes
+firewall-cmd --reload
