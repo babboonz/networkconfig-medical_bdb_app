@@ -1,13 +1,28 @@
+# Address
+#instance 1 = A4A6717522F51FEB67BC60EC8F4364E1E037A862
+#instance 2 = 2DCEBF806DDC7E7D8B828B4386237153A6395E5E
+#instance 3 = ABC172F67FA34222024DD933B1B886C226D5E047
+#instance 4 = 9E6CB42344F9B92E9721CB2AB691A2B798438420
+
+# Public_key
+#instance 1 = BDoN7ni5rPj+mwTXqqy/9ACcG/0NssqkHI5cZ2pmdRI=
+#instance 2 = U3V5ppY+y0BzdlWlqRF1CO+5pM2W2UyRGs7EkAMpAno=
+#instance 3 = JWsRZM4voEQFiXNeVKJ9cD94TSLSrmaPzCywnapG7lg=
+#instance 4 = angEtAjrAic7OzXAYNNXu1Jcaua7a3Z3baZC/LyBv6A=
+
+#Node ID
 #node_id instance 1 = 93e639c4b8bf60a181ad4a167a63da3ecc2ad4a7
 #node_id instance 2 = 857fbe605052775180f29df4bfc531480479ea00
 #node_id instance 3 = f06bb23467d2590d010683b14f6fd980dcf26e75
 #node_id instance 4 = 143aa1c54d5d0bef4f7f222d691a78dab7cd1394
 
+# Public IP GCP
 #IP_address_public instance 1 = 34.101.134.220
 #IP_address_public instance 2 = 34.101.222.72
 #IP_address_public instance 3 = 34.101.77.42
 #IP_address_public instance 4 = 34.101.96.18
 
+# Private IP GCP
 #IP_address_private instance 1 = 10.184.0.2
 #IP_address_private instance 2 = 10.184.0.3
 #IP_address_private instance 3 = 10.184.0.4
