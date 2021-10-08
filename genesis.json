@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2021-08-25T16:19:22.882404447Z",
-  "chain_id": "test-chain-eMltJg",
+  "genesis_time": "2021-10-08T10:08:02.08610442Z",
+  "chain_id": "test-chain-gMtgAm",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -18,37 +18,37 @@
   },
   "validators": [
     {
-      "address": "DAD8AC9BD4EC7A3F3FEA5E77829263FE39006F7F",
+      "address": "A4A6717522F51FEB67BC60EC8F4364E1E037A862",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "xzSxJHWKXeIDzv3x/KfbN9myQq0+vsDjTi680vLLQ2A="
+        "value": "BDoN7ni5rPj+mwTXqqy/9ACcG/0NssqkHI5cZ2pmdRI="
       },
       "power": "10",
       "name": ""
     },
     {
-      "address": "7F8D31C30C966947857528A78EE260277D0FCEA6",
+      "address": "2DCEBF806DDC7E7D8B828B4386237153A6395E5E",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "7h11pGK0x7wGZ1kCXK+wnlgCu4yHzG0DBgRY0JWxlh4="
+        "value": "U3V5ppY+y0BzdlWlqRF1CO+5pM2W2UyRGs7EkAMpAno="
       },
       "power": "10",
       "name": ""
     },    
     {
-      "address": "46F990A83B16C3C5F5DBED1EB79C7CD605D5BD18",
+      "address": "ABC172F67FA34222024DD933B1B886C226D5E047",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "DYsncXcdPG8WH17AG/8Ew8U4C6qOMGc7w6ldPiqxvVk="
+        "value": "JWsRZM4voEQFiXNeVKJ9cD94TSLSrmaPzCywnapG7lg="
       },
       "power": "10",
       "name": ""
     },    
     {
-      "address": "3495DAEA3887DC4E6F2B2DA2C6F2C6F85A62A960",
+      "address": "9E6CB42344F9B92E9721CB2AB691A2B798438420",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "fo4E6k2lngvO/yMIeTtZNmN0LYGJgN9S/hGD8q/ZiVY="
+        "value": "angEtAjrAic7OzXAYNNXu1Jcaua7a3Z3baZC/LyBv6A="
       },
       "power": "10",
       "name": ""
