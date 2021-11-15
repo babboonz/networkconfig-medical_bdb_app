@@ -2,7 +2,7 @@ mongodb.conf is located inside /etc/
 
 sudo nano etc/mongodb.conf while in /
 
-change the bind_ip to 127.0.0.1,private_ip
+change the bind_ip to "127.0.0.1,private_ip"
 
 after adding the additional private_ip, make sure to restart the mongodb service
 
